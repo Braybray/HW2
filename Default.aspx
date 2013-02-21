@@ -15,10 +15,8 @@
         <br />
         <br />
         <br />
-        <br />
         How many hours you work each week:&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="WorkHours" runat="server"></asp:TextBox>
-        <br />
         <br />
         <br />
         <br />
@@ -27,13 +25,12 @@
         <br />
         <br />
         <br />
-        <br />
         After-tax deductions:&nbsp;
         <asp:TextBox ID="AfterDeduction" runat="server"></asp:TextBox>
         <br />
         <br />
         <br />
-        Assume a tax rate of 18%, calculate your net pay:
+        Assume a tax rate of 18%, calculate your net pay: 
         <br />
         <br />
         <asp:Button ID="ComputeButton" runat="server" Height="26px" Text="Calculate" 
