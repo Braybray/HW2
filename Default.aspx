@@ -11,7 +11,7 @@
     <div>
     
         What is your hourly pay:&nbsp;
-        <asp:TextBox ID="TextBox1" runat="server" Width="120px"></asp:TextBox>
+        <asp:TextBox ID="HourlyPay" runat="server" Width="120px"></asp:TextBox>
         <br />
         <br />
         <br />
@@ -37,7 +37,7 @@
             Width="131px" />
 &nbsp;<br />
         <br />
-        <asp:Label ID="DisplayLabel" runat="server"></asp:Label>
+        <asp:Label ID="Result" runat="server"></asp:Label>
     
     </div>
     <p>
